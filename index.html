@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Merry Christmas, Bilali 🎄❤️</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      background: linear-gradient(135deg, #ffe6f0, #fff5f8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+    }
+
+    .container {
+      max-width: 800px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #d6336c;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 1.2rem;
+      color: #e03131;
+      margin-bottom: 40px;
+      font-weight: 500;
+    }
+
+    .cards {
+      display: grid;
+      gap: 25px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(214, 51, 108, 0.15);
+      opacity: 0;
+      transform: translateY(40px);
+      animation: reveal 1.2s ease forwards;
+    }
+
+    .card:nth-child(1) { animation-delay: 0.5s; }
+    .card:nth-child(2) { animation-delay: 2s; }
+    .card:nth-child(3) { animation-delay: 3.5s; }
+    .card:nth-child(4) { animation-delay: 5s; }
+
+    .card h2 {
+      color: #e03131;
+      margin-bottom: 15px;
+      font-size: 1.4rem;
+    }
+
+    .card p {
+      color: #444;
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+
+    @keyframes reveal {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .heart {
+      margin-top: 30px;
+      font-size: 1.5rem;
+      color: #ff4d6d;
+      animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Merry Christmas, Bilali 🎄❤️</h1>
+    <div class="subtitle">A playful Christmas note from your partner-in-crime</div>
+
+    <div class="cards">
+      <div class="card">
+        <h2>How We Met</h2>
+        <p>
+          Who knew a hackathon teammate would turn into one of my favorite humans?  
+          Like a surprise Christmas gift, you popped in and instantly became unforgettable.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Why You’re Awesome</h2>
+        <p>
+          You’re the cozy cup of cocoa on a cold winter night,  
+          the laughter that jingles louder than Christmas bells,  
+          and the playful chaos that makes life so much fun.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Grateful Vibes</h2>
+        <p>
+          I’m so grateful for every laugh, every crazy moment,  
+          and for just being you my bilali, my partner in festive mischief.  
+          You make life brighter and sillier, like holiday lights on repeat.
+        </p>
+      </div>
+
+      <div class="card">
+        <h2>Forever Fun</h2>
+        <p>
+          HATE UH TO INFINITY ALWAYS
+</br>
+(It's fun to be a racist with you)
+        </p>
+      </div>
+    </div>
+
+    <div class="heart">❤️</div>
+  </div>
+</body>
+</html>
